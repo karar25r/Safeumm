@@ -1,9 +1,9 @@
-import websocket
+from websocket import websocket
 import ssl
 import os
 import json
 import gzip
-import requests
+from requests import requests
 from time import sleep
 import random
 import concurrent.futures
